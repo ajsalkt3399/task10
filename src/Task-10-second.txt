@@ -1,0 +1,16 @@
+Font Family :Poppins
+link:https://fonts.google.com/specimen/Poppins
+
+Font Size - 
+H1 :32px
+H2 :28px
+H3 :22px
+H3 :20px
+H4 :16px
+
+Colours -
+Blue:333988
+Grey:F1F1F3
+light Orange:F4E7E4
+light blue:E6F4FF
+Button:333988
