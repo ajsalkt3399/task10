@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Rightbar() {
+function Rightbar() {
   return (
     <div>
       
     </div>
   )
 }
+
+export default Rightbar
