@@ -18,22 +18,24 @@ import NoMatch from "./components/screens/NoMatch";
 function App() {
     return (
         <>
-
+ <MainContainer  className='bg'>
         <Router>
           <NavBar/>
           <Routes>
             <Route path='/' element={<Summary/>}/>
-            <Route path='Products' element={<Products/>}/>
-            <Route  path='Hotselling' element={<HotSelling/>}/>
-            <Route  path='Manageorder' element={<ManageOrder/>}/>
+            <Route path='products' element={<Products/>}/>
+            <Route  path='hotselling' element={<HotSelling/>}/>
+            <Route  path='manageorder' element={<ManageOrder/>}/>
             <Route  path='payments' element={<Payments/>}/>
-            <Route  path='Settings' element={<Settings/>}/>
+            <Route  path='settings' element={<Settings/>}/>
             <Route path='*' element={<NoMatch/>}/>
           </Routes>
           <RightBar/>
         </Router>
     
-    </>
+  
+     </MainContainer>
+     </>
   );
 }
 
@@ -41,3 +43,14 @@ export default App;
 
 
 
+const MainContainer=styled.div`
+position: relative;
+
+
+margin: 0 auto;
+display:flex;
+justify-content:space-between;
+
+
+
+`
