@@ -2,23 +2,23 @@ import React from "react";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 
-export default function ManageOrder() {
+export default function hotselling() {
   return (
     <>
     <Helmet>
                 
-                <title>ManageOrder</title>
+                <title>HotSelling</title>
               
             </Helmet>
       <ProductsContainer>
-        <Heading>Manage Order</Heading>
+        <Heading>HotSelling</Heading>
         <SubHeading>Coming Soon...!</SubHeading>
       </ProductsContainer>
     </>
   );
 }
 const ProductsContainer = styled.div`
-  width: 80%;
+  
 
   margin: 0 auto;
   padding: 40px 0;
