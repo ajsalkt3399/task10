@@ -30,7 +30,7 @@ function App() {
             <Route  path='settings' element={<Settings/>}/>
             <Route path='*' element={<NoMatch/>}/>
           </Routes>
-          <RightBar/>
+       <RightBar/>
         </Router>
     
   
@@ -45,6 +45,7 @@ export default App;
 
 const MainContainer=styled.div`
 position: relative;
+
 
 
 margin: 0 auto;
