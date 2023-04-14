@@ -160,9 +160,11 @@ const RightBarCointainer = styled.div`
   background-color: #f1f1f3;@media (max-width: 1200px) {
     
     padding-top: 110px;
+    
 
        }
 `;
+
 const NotificationBar = styled.div`
   width: 80%;
   margin: 0 auto;

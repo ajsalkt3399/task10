@@ -28,7 +28,7 @@ const Heading = styled.h1`
   width: 80%;
 
   margin: 0 auto;
-  background-color: #f1f1f3;
+  
   border-radius: 15px;
 `;
 const SubHeading = styled.h2``;
