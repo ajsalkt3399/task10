@@ -172,6 +172,8 @@ const NavContainer = styled.section`
   transition: 200ms ease-in-out;
   background: #fff;
   transform: translateX(0);
+
+
   @media (max-width: 1200px) {
     padding: 40px;
     transform: translateX(-100%);
@@ -185,6 +187,9 @@ const NavContainer = styled.section`
     transform: translateX(0);
   }
 `;
+
+
+
 const NavLogo = styled(Link)`
   @media (max-width: 1200px) {
     margin: 30px 0px;

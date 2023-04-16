@@ -197,6 +197,10 @@ const MessageIconImage = styled.img`
 const RightSide = styled.div`
   display: flex;
   align-items: center;
+
+
+
+
   @media (max-width: 1200px) {
     display: none;
   }

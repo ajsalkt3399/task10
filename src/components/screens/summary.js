@@ -62,6 +62,8 @@ export default function Summary()
             </SearchBarIcon>
           </SearchBarContainer>
         </SearchBar>
+
+        
         <StatisticsContainer>
           <StatisticsTopContainer>
             <StatisticsHeading>Statistics</StatisticsHeading>
@@ -161,6 +163,7 @@ export default function Summary()
 }
 
 const SummaryContainer = styled.div`
+
   padding: 40px 0;
   
   width: 49%;
@@ -168,8 +171,11 @@ const SummaryContainer = styled.div`
     width: 69%;
     padding-top: 140px;
 
-    @media all and (max-width: 1280px){
-      
+  @media all and (max-width: 1540px){
+
+    
+
+
   }
   @media all and (max-width: 980px){
     
@@ -182,12 +188,14 @@ const SummaryContainer = styled.div`
 
 
 const SearchBar = styled.div`
+
   width: 80%;
   margin: 0 auto;
   background-color: #f1f1f3;
   border-radius: 15px;
   padding: 20px 10px;
-`;
+
+  `;
 const SearchBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
