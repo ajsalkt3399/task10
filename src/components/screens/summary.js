@@ -27,17 +27,24 @@ export default function Summary()
       datasets: [
         {
 
-          label: "Users Gained",
+          label: "Sales last 6 months",
+          
+
           data: UserData.map((data) => data.userGain),
           backgroundColor: [
-            "rgba(256,256,256)",
-            "#ecf0f1",
-            "#50AF95",
-            "#f3ba2f",
-            "#2a71d0",
+            "rgba(256 ,256,256)",
+            "#f1f1f3",
+            "#f1f1f3",
+            "#f1f1f3",
+            "#f1f1f3",
+
           ],
           borderColor: "black",
+          tension: 0.5,
           borderWidth: 2,
+          
+      
+          
           
           
         },
@@ -301,7 +308,7 @@ const SalesContainer = styled.div`
   
 `;
 const SalesImageContainer = styled.div`
-
+ 
 
 
 margin: 0 auto;
