@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 //chart
 import Chart from "chart.js/auto";
-import { CategoryScale } from "chart.js";
+import { CategoryScale, Colors } from "chart.js";
 import LineChart from "../Linechart";
 import { useState } from "react";
 
@@ -27,13 +27,14 @@ export default function Summary()
       datasets: [
         {
 
-          label: "Sales last 6 months",
+          label: "Sales last 6 months"  ,
+          
           
 
           data: UserData.map((data) => data.userGain),
           backgroundColor: [
             "rgba(256 ,256,256)",
-            "#f1f1f3",
+            "#333893",
             "#f1f1f3",
             "#f1f1f3",
             "#f1f1f3",
@@ -250,22 +251,30 @@ const CalenderIcon = styled.span`
   cursor: pointer;
   margin-left: 10px;
 `;
+
+
 const CalenderIconImg = styled.img`
   display: block;
   width: 100%;
 `;
+
+
 const StatisticsMainContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 `;
+
+
 const DeliveryContainer = styled.div`
   width: 47%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 `;
+
+
 const DeliveryFirstContainer = styled.div`
   height: 47%;
   background-color: #f4e7e4;
@@ -277,20 +286,27 @@ const DeliveryFirstContainer = styled.div`
     cursor: pointer;
   }
 `;
+
 const DeliveryIcon = styled.span`
   display: block;
   width: 55px;
 `;
+
+
 const DeliveryIconImg = styled.img`
   display: block;
   width: 100%;
 `;
+
+
 const DeliveryContent = styled.div`
   font-family: "Poppins-Regular";
 `;
+
 const MainContent = styled.h4`
   font-size: 20px;
 `;
+
 const SubContent = styled.h2`
   font-size: 26px;
 `;
@@ -308,12 +324,15 @@ const SalesContainer = styled.div`
   
 `;
 const SalesImageContainer = styled.div`
+
+
  
 
 
 margin: 0 auto;
 background-color:#333893 ;
 
+background-image: linear-gradient(#333893  , white,  #333893);
 
 
 border-radius: 25px;
