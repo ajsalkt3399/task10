@@ -121,7 +121,7 @@ export default function Summary()
       
       <div style={{ 
         
-        height : 800,
+        height : 500,
         
         width: 300,
 
